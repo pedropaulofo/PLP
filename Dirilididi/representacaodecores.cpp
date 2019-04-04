@@ -1,4 +1,4 @@
-# include <iostream>   // biblioteca necessária para a função std::cout
+# include <iostream> 
 
 using namespace std;
 
@@ -16,4 +16,5 @@ int main()
    else{
        cout << "PRETO";
    }
-}
+ return 0;
+ }

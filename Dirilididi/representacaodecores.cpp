@@ -6,9 +6,9 @@ int main()
 {
    int red, green, blue;
     
-    cin >> red;
-    cin >> green;
-    cin >> blue;
+   std:: cin >> red;
+   std::cin >> green;
+   std::cin >> blue;
 
    if ((red >= 128) && (green >= 128) && (blue >= 128)){
    		cout << "BRANCO";
@@ -17,4 +17,4 @@ int main()
        cout << "PRETO";
    }
  return 0;
- }
+}
